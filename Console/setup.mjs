@@ -25,7 +25,7 @@ export async function setup( context ) {
 
     logs.push({ message: message, display: $message });
     if (logs.length > max_log) {
-      old_log = logs.shift();
+      let old_log = logs.shift();
       old_log.display.remove();
     }
   };
