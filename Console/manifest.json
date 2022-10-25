@@ -1,5 +1,5 @@
 {
-  "namespace": "kloppie.console",
+  "namespace": "kloppie_console",
   "setup": "setup.mjs",
   "load": ["style.css"]
 }
